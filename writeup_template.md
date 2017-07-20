@@ -46,9 +46,9 @@ In pipeline 2 (file P1-optional.ipynb), all the above apply. The main difference
 
 ### 2. Identify potential shortcomings with your current pipeline
 
-For pipeline 1, as mentioned above, it doesn't work well if the road has some kinds of "noises", like the shade of tree, or cracks on the road, or different colors caused by road work, etc. In these cases, Hough Transform will give a lot of unexpected lines, which would cause the inaccuracy of the fina lane line. 
+For pipeline 1, as mentioned above, it doesn't work well if the road has some kinds of "noises", like the shade of tree, or cracks on the road, or different color depth caused by road work, etc. In these cases, Hough Transform will give a lot of unexpected lines, which would cause the inaccuracy of the final lane line. 
 
-For pipeline 2, which can greately improve the issue in 1, but by only keep the yellow and white colors, it doesn't work well if the lane color itself is not so vivid, and the color selection would also result in some kind of lost of the lanes.
+For pipeline 2, which can greately improve the issue in 1, but by only keeping the yellow and white colors, it doesn't work well if the lane color itself is not so vivid, and the color selection would also result in some kind of lost of the useful information.
 
 
 ### 3. Suggest possible improvements to your pipeline
